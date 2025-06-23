@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  padding: 20px;
+}
+
+#messages {
+  background: #fff;
+  border: 1px solid #ddd;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+}
